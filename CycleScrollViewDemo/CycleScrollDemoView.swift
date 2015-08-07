@@ -101,7 +101,7 @@ class CycleScrollDemoView: UIView , UIScrollViewDelegate {
     }
     
     
-    //MARK:- privateMethod
+    //MARK:- private method
     func setCurrentPage(var pageNum:Int){
         //move the content to the correct page
         var arrCount = count(colorsArr)
