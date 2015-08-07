@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DCAD43A1B744BF000EB5065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAD4391B744BF000EB5065 /* AppDelegate.swift */; };
+		9DCAD43C1B744BF000EB5065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAD43B1B744BF000EB5065 /* ViewController.swift */; };
+		9DCAD43F1B744BF000EB5065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCAD43D1B744BF000EB5065 /* Main.storyboard */; };
+		9DCAD4411B744BF000EB5065 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCAD4401B744BF000EB5065 /* Images.xcassets */; };
+		9DCAD4441B744BF000EB5065 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DCAD4421B744BF000EB5065 /* LaunchScreen.xib */; };
+		9DCAD4501B744BF000EB5065 /* CycleScrollViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAD44F1B744BF000EB5065 /* CycleScrollViewDemoTests.swift */; };
+		9DCAD45A1B744CD500EB5065 /* CycleScrollDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCAD4591B744CD500EB5065 /* CycleScrollDemoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DCAD44A1B744BF000EB5065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DCAD42C1B744BF000EB5065 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DCAD4331B744BF000EB5065;
+			remoteInfo = CycleScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DCAD4341B744BF000EB5065 /* CycleScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCAD4381B744BF000EB5065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCAD4391B744BF000EB5065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DCAD43B1B744BF000EB5065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DCAD43E1B744BF000EB5065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DCAD4401B744BF000EB5065 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9DCAD4431B744BF000EB5065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9DCAD4491B744BF000EB5065 /* CycleScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCAD44E1B744BF000EB5065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCAD44F1B744BF000EB5065 /* CycleScrollViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleScrollViewDemoTests.swift; sourceTree = "<group>"; };
+		9DCAD4591B744CD500EB5065 /* CycleScrollDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleScrollDemoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DCAD4311B744BF000EB5065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCAD4461B744BF000EB5065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DCAD42B1B744BF000EB5065 = {
+			isa = PBXGroup;
+			children = (
+				9DCAD4361B744BF000EB5065 /* CycleScrollViewDemo */,
+				9DCAD44C1B744BF000EB5065 /* CycleScrollViewDemoTests */,
+				9DCAD4351B744BF000EB5065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DCAD4351B744BF000EB5065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DCAD4341B744BF000EB5065 /* CycleScrollViewDemo.app */,
+				9DCAD4491B744BF000EB5065 /* CycleScrollViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DCAD4361B744BF000EB5065 /* CycleScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9DCAD4391B744BF000EB5065 /* AppDelegate.swift */,
+				9DCAD4591B744CD500EB5065 /* CycleScrollDemoView.swift */,
+				9DCAD43B1B744BF000EB5065 /* ViewController.swift */,
+				9DCAD4401B744BF000EB5065 /* Images.xcassets */,
+				9DCAD4421B744BF000EB5065 /* LaunchScreen.xib */,
+				9DCAD43D1B744BF000EB5065 /* Main.storyboard */,
+				9DCAD4371B744BF000EB5065 /* Supporting Files */,
+			);
+			path = CycleScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		9DCAD4371B744BF000EB5065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DCAD4381B744BF000EB5065 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DCAD44C1B744BF000EB5065 /* CycleScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DCAD44F1B744BF000EB5065 /* CycleScrollViewDemoTests.swift */,
+				9DCAD44D1B744BF000EB5065 /* Supporting Files */,
+			);
+			path = CycleScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		9DCAD44D1B744BF000EB5065 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DCAD44E1B744BF000EB5065 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DCAD4331B744BF000EB5065 /* CycleScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DCAD4531B744BF000EB5065 /* Build configuration list for PBXNativeTarget "CycleScrollViewDemo" */;
+			buildPhases = (
+				9DCAD4301B744BF000EB5065 /* Sources */,
+				9DCAD4311B744BF000EB5065 /* Frameworks */,
+				9DCAD4321B744BF000EB5065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CycleScrollViewDemo;
+			productName = CycleScrollViewDemo;
+			productReference = 9DCAD4341B744BF000EB5065 /* CycleScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DCAD4481B744BF000EB5065 /* CycleScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DCAD4561B744BF000EB5065 /* Build configuration list for PBXNativeTarget "CycleScrollViewDemoTests" */;
+			buildPhases = (
+				9DCAD4451B744BF000EB5065 /* Sources */,
+				9DCAD4461B744BF000EB5065 /* Frameworks */,
+				9DCAD4471B744BF000EB5065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DCAD44B1B744BF000EB5065 /* PBXTargetDependency */,
+			);
+			name = CycleScrollViewDemoTests;
+			productName = CycleScrollViewDemoTests;
+			productReference = 9DCAD4491B744BF000EB5065 /* CycleScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DCAD42C1B744BF000EB5065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = fengche;
+				TargetAttributes = {
+					9DCAD4331B744BF000EB5065 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9DCAD4481B744BF000EB5065 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9DCAD4331B744BF000EB5065;
+					};
+				};
+			};
+			buildConfigurationList = 9DCAD42F1B744BF000EB5065 /* Build configuration list for PBXProject "CycleScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DCAD42B1B744BF000EB5065;
+			productRefGroup = 9DCAD4351B744BF000EB5065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DCAD4331B744BF000EB5065 /* CycleScrollViewDemo */,
+				9DCAD4481B744BF000EB5065 /* CycleScrollViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DCAD4321B744BF000EB5065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCAD43F1B744BF000EB5065 /* Main.storyboard in Resources */,
+				9DCAD4441B744BF000EB5065 /* LaunchScreen.xib in Resources */,
+				9DCAD4411B744BF000EB5065 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCAD4471B744BF000EB5065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DCAD4301B744BF000EB5065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCAD43C1B744BF000EB5065 /* ViewController.swift in Sources */,
+				9DCAD45A1B744CD500EB5065 /* CycleScrollDemoView.swift in Sources */,
+				9DCAD43A1B744BF000EB5065 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCAD4451B744BF000EB5065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCAD4501B744BF000EB5065 /* CycleScrollViewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DCAD44B1B744BF000EB5065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DCAD4331B744BF000EB5065 /* CycleScrollViewDemo */;
+			targetProxy = 9DCAD44A1B744BF000EB5065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DCAD43D1B744BF000EB5065 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DCAD43E1B744BF000EB5065 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DCAD4421B744BF000EB5065 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DCAD4431B744BF000EB5065 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DCAD4511B744BF000EB5065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DCAD4521B744BF000EB5065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DCAD4541B744BF000EB5065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CycleScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DCAD4551B744BF000EB5065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CycleScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DCAD4571B744BF000EB5065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CycleScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CycleScrollViewDemo.app/CycleScrollViewDemo";
+			};
+			name = Debug;
+		};
+		9DCAD4581B744BF000EB5065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CycleScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CycleScrollViewDemo.app/CycleScrollViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DCAD42F1B744BF000EB5065 /* Build configuration list for PBXProject "CycleScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCAD4511B744BF000EB5065 /* Debug */,
+				9DCAD4521B744BF000EB5065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DCAD4531B744BF000EB5065 /* Build configuration list for PBXNativeTarget "CycleScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCAD4541B744BF000EB5065 /* Debug */,
+				9DCAD4551B744BF000EB5065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DCAD4561B744BF000EB5065 /* Build configuration list for PBXNativeTarget "CycleScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCAD4571B744BF000EB5065 /* Debug */,
+				9DCAD4581B744BF000EB5065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DCAD42C1B744BF000EB5065 /* Project object */;
+}
