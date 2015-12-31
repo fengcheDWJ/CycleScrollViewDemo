@@ -1,2 +1,9 @@
 # CycleScrollViewDemo
 无限循环滚动demo
+
+这是一个网页中轮播图的Swift实现版
+源代码是基于git上开源的CycleScrollView修改增加了Autodisplay 的功能
+原版不支持IB 可视化加载.修改后可以在xib和storyboard中生成CycleScrollView 
+设置好uiview datasorce 和 timeinterval就可以自动播放了.
+若不想让用户手动控制滑动可以在源码中修改contentsize 为SelfWidth
+有疑问欢迎QQ或者邮件探讨. 
